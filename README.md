@@ -1,3 +1,12 @@
+---
+name: "Academic Productivity"
+description: "Connects academic productivity blockers to concrete strategies, assistive technologies and tools."
+categories: [content-distribution, web-app, built-by-ai, powered-by-ai]
+updated: 2026-07-16
+deployments:
+  Appsite:
+    "Academic Productivity": https://academicproductivity.edutools.fyi/
+---
 # Academic Productivity Hub
 
 A comprehensive interactive resource for academic productivity strategies, assistive technologies, and digital tools. This application helps users understand productivity blockers, explore strategies to reduce cognitive load, and find appropriate hardware and software tools.
