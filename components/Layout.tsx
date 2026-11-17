@@ -1,3 +1,4 @@
+import { CiteThisPage } from '../citation/CiteThisPage';
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, BookOpen, PenTool, ShieldAlert, Home, Database, Cpu } from 'lucide-react';
@@ -126,6 +127,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <p>&copy; {new Date().getFullYear()} Academic Productivity Hub. All rights reserved.</p>
           </div>
         </div>
+      <CiteThisPage />
       </footer>
     </div>
   );
